@@ -128,5 +128,6 @@ This project is open source and available under the MIT License.
 ## Acknowledgments
 
 - 42 Abu Dhabi
+- RAIA Club at 42 Abu Dhabi
 - Hugging Face
 - TinyLlama team
