@@ -45,7 +45,7 @@ This chatbot provides accurate information about:
 
 6. Run the chatbot:
     ```bash
-    python3 guider.py
+    python3 src/guider.py
     ```
 
 ### Windows
@@ -77,7 +77,7 @@ This chatbot provides accurate information about:
 
 6. Run the chatbot:
     ```bash
-    python guider.py
+    python src/guider.py
     ```
 
 ## System Requirements
