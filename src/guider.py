@@ -2,7 +2,7 @@
 
 from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
 import torch
-from cache_utils import generate_cache_key, get_cached_response
+from src.cache_utils import generate_cache_key, get_cached_response
 import psutil
 import gc
 
