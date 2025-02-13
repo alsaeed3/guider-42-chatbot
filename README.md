@@ -5,6 +5,7 @@ An AI-powered chatbot specifically designed to answer questions about 42 Abu Dha
 ## Description
 
 This chatbot provides accurate information about:
+
 - Admission process and Piscine
 - Curriculum and projects  
 - Campus facilities
@@ -19,31 +20,37 @@ This chatbot provides accurate information about:
 ### Linux/macOS
 
 1. Create a virtual environment:
+
     ```bash
     python3 -m venv venv
     ```
 
 2. Activate the virtual environment:
+
     ```bash
     source venv/bin/activate
     ```
 
 3. Clean pip cache:
+
     ```bash
     pip3 cache purge
     ```
 
 4. Upgrade pip:
+
     ```bash
     pip3 install --upgrade pip
     ```
 
 5. Install required packages:
+
     ```bash
     pip3 install -r requirements.txt
     ```
 
 6. Run the chatbot:
+
     ```bash
     python3 src/guider.py
     ```
@@ -51,31 +58,37 @@ This chatbot provides accurate information about:
 ### Windows
 
 1. Create a virtual environment:
+
     ```bash
     python -m venv venv
     ```
 
 2. Activate the virtual environment:
+
     ```bash
     .\venv\Scripts\activate
     ```
 
 3. Clean pip cache:
+
     ```bash
     pip cache purge
     ```
 
 4. Upgrade pip:
+
     ```bash
     pip install --upgrade pip
     ```
 
 5. Install required packages:
+
     ```bash
     pip install -r requirements.txt
     ```
 
 6. Run the chatbot:
+
     ```bash
     python src/guider.py
     ```
@@ -97,20 +110,24 @@ This chatbot provides accurate information about:
 ## Troubleshooting
 
 ### SSL Certificate Issues (Raspberry Pi)
+
 If you encounter SSL certificate errors, use:
     ```bash
     pip3 install --trusted-host pypi.org --trusted-host files.pythonhosted.org -r requirements.txt
     ```
 
 ### Memory Issues
+
 - Close other applications to free up memory
 - Ensure you have at least 4GB of available RAM
 
 ### Model Download Issues
+
 - Check your internet connection
 - Ensure you have sufficient disk space (at least 2GB free)
 
 ## Project Structure
+
 ├── README.md
 
 ├── requirements.txt
